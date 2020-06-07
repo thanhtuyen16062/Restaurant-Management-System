@@ -1,0 +1,26 @@
+[
+	{
+		"name"	: "Grilled Chicken Skewers",
+		"price"	: "25",
+		"images"	: "../img/n1.jpg" 
+	},
+	
+	{
+		"name"	: "Garlic butter toast",
+		"price": "50",
+		"images"	: "../img/n2.jpg" 
+	},
+	
+	{
+		"name"	: "Beijing roast duck",
+		"price"	: "55",
+		"images"	: "../img/n3.jpg" 
+	},
+	
+	{
+		"name"	: "Baked ribs",
+		"price"	: "30",
+		"images"	: "../img/n4.jpg" 
+	}
+]
+

@@ -1,0 +1,27 @@
+[
+	
+	{
+		"name"	: "Goat hotpot",
+		"price"	: "22",
+		"images"	: "../img/l1.jpg" 
+	},
+	
+	{
+		"name"	: "Vegetable hotpot",
+		"price"	: "20",
+		"images"	: "../img/l2.jpg" 
+	},
+	
+	{
+		"name"	: "Fish hotpot",
+		"price"	: "25",
+		"images"	: "../img/l3.jpg" 
+	},
+	
+	{
+		"name"	: "Kimchi hotpot",
+		"price"	: "30",
+		"images"	: "../img/l4.jpg" 
+	}
+	
+]

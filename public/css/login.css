@@ -1,0 +1,180 @@
+/* GLOBAL CSS */
+*{
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header, section, footer, aside, nav, main, article, figure {
+display: block; 
+}
+body{
+margin:0;
+padding: 0 0;
+}
+html{   
+font-size:20px;
+}
+.section-padding{
+padding: 0 20%;
+}
+/* END GLOBAL CSS */
+
+/* HEADER CSS */
+.header__top{
+display: flex;
+background-color: #FFD180;
+color: white;
+padding:0.5rem;
+}
+.header__icons{
+display: flex;
+width:50%;
+text-align: left;
+justify-content: left;
+align-items: center;
+padding-left: 5rem;
+}
+.header__icons i{
+padding: 0 15px;
+}
+.header__login{
+display: flex;
+width: 50%;
+text-align: right;
+justify-content: flex-end;
+align-items: center;
+padding-right: 4rem;
+}
+.header__login .header__button{
+font-weight: 400;
+word-spacing: 3px;
+letter-spacing: 2px;
+padding: 0 15px;
+margin:0;
+}
+/* NAVIGATION BAR */
+.header__bot{
+display: flex;
+}
+.header__logo{
+display: flex;
+width: 40%;
+/* text-align: left; */
+justify-content: flex-start;
+align-items: center;
+padding: 0 6rem;
+}
+.header__nav{
+width: 60%;
+justify-content: center;
+align-items: center;
+}
+.header__nav ul{
+padding-top: 0.25rem;
+}
+.header__nav ul li{
+padding-left: 0.5rem;
+display: inline;
+list-style: none;
+margin: 0 0.8rem;
+}
+.header__nav ul li a{
+text-decoration: none;
+color: #868C94;
+font-weight: 500;
+}
+.header__nav ul li a:hover{
+color:  #FFD180;
+}
+.header__nav ul li i:hover{
+color:  #7F67F8;;
+}
+.header__nav ul li.active a{
+color: #FFD180;
+}
+.header__logoFisrtLetter{
+margin: 0;
+font-size: 2.5rem;
+font-weight: bold;
+color: #FFD180;
+padding-bottom: 0.6rem;
+
+}
+.header__logoSecondLetter{
+margin: 0;
+font-size: 1.5rem;
+color: #868C94;
+}
+/* END NAVIGATION BAR */
+/* END HEADER CSS */
+
+/* FORM */
+.card{
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: #FFAB40 !important;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFD180;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3{
+    color: white;
+    text-align: center;
+    font-weight: 200px;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color:#FFD180;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.remember{
+    color: white;
+    font-weight: 100px;
+}
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+button{
+    color: black;
+    background-color: #FFD180;
+    width: 100px;
+    float: right;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.links{
+    color: white;
+}
+.links a{
+    margin-left: 4px;
+}
+/* END FORM */

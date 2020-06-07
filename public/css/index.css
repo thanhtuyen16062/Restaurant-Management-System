@@ -1,0 +1,402 @@
+/* GLOBAL CSS */
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+body{
+    margin:0;
+    padding: 0 0;
+}
+html{   
+    font-size:20px;
+}
+.section-padding{
+    padding: 0 20%;
+}
+/* END GLOBAL CSS */
+
+/* HEADER CSS */
+.header__top{
+    display: flex;
+    background-color: #FFD180;
+    color: white;
+    padding:0.5rem;
+}
+.header__icons{
+    display: flex;
+    width:50%;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5rem;
+}
+.header__icons i{
+    padding: 0 15px;
+}
+.header__login{
+    display: flex;
+    width: 50%;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4rem;
+}
+.header__login .header__button{
+    font-weight: 400;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    margin:0;
+}
+/* NAVIGATION BAR */
+.header__bot{
+    display: flex;
+}
+.header__logo{
+    display: flex;
+    width: 40%;
+    /* text-align: left; */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 6rem;
+}
+.header__nav{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav ul{
+    padding-top: 0.25rem;
+}
+.header__nav ul li{
+    padding-left: 0.5rem;
+    display: inline;
+    list-style: none;
+    margin: 0 0.8rem;
+}
+.header__nav ul li a{
+    text-decoration: none;
+    color: #868C94;
+    font-weight: 500;
+}
+.header__nav ul li a:hover{
+    color:  #FFD180;
+}
+.header__nav ul li i:hover{
+    color:  #7F67F8;;
+}
+.header__nav ul li.active a{
+    color: #FFD180;
+}
+.header__logoFisrtLetter{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#FFD180;
+    padding-bottom: 0.6rem;
+
+}
+.header__logoSecondLetter{
+    margin: 0;
+    font-size: 1.5rem;
+    color: #868C94;
+}
+/* END NAVIGATION BAR */
+/* END HEADER CSS */
+
+/* CAROUSEL */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.carousel{
+    display: flex;
+    height: 30rem;
+    background-image: url(../img/t1.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+.carousel__content{
+    margin-top: 10rem;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel__content p{
+    color: white;
+    padding: 0 6rem;
+    font-weight: 300;
+    margin:0;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.carousel__content h1{
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    margin:0;
+    
+}
+.carousel__content .aboutUs{
+    margin-top: 2rem;
+    color: white;
+    border: 0.1rem solid rgb(221, 221,221);
+    padding: 0.3rem 1rem;
+    font-weight: 400;
+    background-color:transparent;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.readMore{
+    margin-top: 2rem;
+    color: white;
+    padding: 0.3rem 1rem;
+    font-weight: 400;
+    border: 0.1rem solid #FFD180;
+    background-color: #FFD180;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.aboutUs{
+    background-color: transparent;
+}
+.aboutUs:hover{
+    background-color: slateblue;
+}
+.readMore:hover{
+    background-color: transparent;
+}
+.icon1{
+    margin-top: 4rem;
+    color: #FFD180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon23{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1 i{
+    margin: 0 0.5rem;
+}
+
+.carousel__icons i:hover{
+    color: #7F67F8;
+    cursor: pointer;
+}
+.aboutUs{
+    color: transparent;
+}
+/* END CAROUSEL */
+
+/* CONCEPT */
+.concept__title{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color:  #FFAB40;
+}
+.concept__content p{
+    margin: 15px;
+    border: 1px solid  #FFAB40;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+}
+/* END CONCEPT */
+/* SPECIAL FOOD */
+.special{
+    height: 30rem;
+    border: 1px solid transparent;
+}
+.special__intro h1{
+    color: rgb(59, 52, 52);
+    font-weight:600;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-top: 3rem;
+}
+.special__intro{
+    text-align: center;
+}
+/* END SPECIAL FOOD */
+
+/* SPACE */
+.space{
+    margin-top: 400px;
+    top: 100px;
+}
+.space__title{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color:  #FFAB40;
+}
+.space__content p{
+    margin: 15px;
+    border: 1px solid  #FFAB40; 
+    text-align: center;
+    width: 500px;
+    height: 150px;
+}
+/* END SPACE */
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    border: 1px solid transparent;
+    position: relative;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+    margin: 0 10rem;
+    position: relative;
+}
+.footer__content .subscribe{
+    grid-column: 1/span 2;
+}
+.footer__item h1{
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color:#FFD180;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.footer__item p{
+    width:90%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    color: grey;
+}
+.subscribe input{
+    width: 100%;
+    height: 2rem;
+    border: 2px solid grey;
+}
+.subscribe input::placeholder{
+    letter-spacing: 0.1rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+.footer__content .links span{
+    display: block;
+    color: white;
+    margin: 0.8rem 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.input__container{
+   width: 100%;
+   display: flex;
+   position: relative;
+}
+.input__container i{
+    position: absolute;
+    font-size: 0.8rem;
+    color:white;
+    border: 1px solid #FFD180;
+    background-color: #FFD180;
+    width: 2.6rem;
+    height: 2.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:1px;
+    left: 83%;
+}
+.input__container input{
+    background-color: black;
+    margin-top: 0.46rem;
+    padding: 1.3rem 0;
+}
+.footer__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.footer__icon i{
+    color: #FFD180;
+}
+.footer__icon p{
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 0.2rem;
+    font-weight: 300;
+}
+.footer__end{
+    background-color:#252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.7rem 0;
+}
+.footer__end p{
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+}
+.footer__end span{
+    text-decoration: underline;
+}
+.true{
+    position: absolute;
+    top: 70%;
+    left: 95%;
+}
+/* END FOOTER */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 25%;;
+    height: 25%;
+    position: absolute;
+    margin: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+button {
+    text-align: center;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+}

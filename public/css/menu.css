@@ -1,0 +1,58 @@
+* GLOBAL CSS */
+*{
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header, section, footer, aside, nav, main, article, figure {
+display: block; 
+}
+body{
+margin:0;
+padding: 0 0;
+}
+html{   
+font-size:20px;
+}
+
+table {
+    width: 80%;
+    border-collapse:collapse;
+}
+
+table,th, td {
+    border: 1px solid #333;
+}
+
+th {background-color: gray; color:white;}
+
+.section-padding{
+padding: 0 20%;
+}
+/* END GLOBAL CSS */
+.menu__header{
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/h1.jpg');
+}
+.menu {
+    position: relative;
+}
+.menu_content{
+    margin-top: 10px;
+    text-align: center;
+}
+.promotion {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.promotion p, .hotpot p, .mon_nuong p{
+    color: black;
+}
+.hotpot{
+    margin-top: 40px;
+}
+.grill{
+    margin-top: 40px;
+}
